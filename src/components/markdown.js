@@ -142,6 +142,7 @@ const Markdown = (props) => {
                 username={props.social.youtube} /></>
             {isSocial(props.social) ? `</p>` : ''}
         </div>
+            
     );
 };
 
